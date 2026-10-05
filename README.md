@@ -1,4 +1,4 @@
-# TrendyHear · 听见新闻简报
+# TrendyHear · 听见新闻简报应用
 
 OctoSense 原生新闻阅读与摘要应用，版本 0.3.0，ID `news.tingjian-native`。
 
@@ -25,10 +25,12 @@ curl -s http://127.0.0.1:8141/quit
 
 依赖：OctoSense 源码提交 `127ae4bd5a5476f0b813179868e61f80748a044e`；App Hub `0d5b47a2ae9eb98020feca26b7c895a3cf797dc1`。精确本机运行制品校验见交付说明。
 
-公开仓库：[TrendyHear](https://github.com/shaokaiyuan0513-dotcom/TrendyHear)。标签 v0.3.0 固定本次提交。
+公开仓库：[TrendyHear](https://github.com/shaokaiyuan0513-dotcom/TrendyHear)。
+本次提交版本：v0.3.0 
 
 ## 演示和证据
 
-[150 秒真实操作视频](submission/演示视频/听见新闻-实际操作演示.mp4)、[需求说明](submission/需求说明/需求说明.md)、[数据来源与限制](submission/数据来源与限制/数据来源与限制.md)、[成员名单](submission/成员名单/已报名成员名单.md)。真实截图位于 bundle/screenshots/。验证记录在 submission/操作与结果证据/。
+[真实操作视频](submission/演示视频/听见新闻-实际操作演示.mp4)、[需求说明](submission/需求说明/需求说明.md)、[数据来源与限制](submission/数据来源与限制/数据来源与限制.md)、[成员名单](submission/成员名单/已报名成员名单.md)。真实截图位于 bundle/screenshots/。验证记录在 submission/操作与结果证据/。
 
-队伍 SkyStream：Leah、FruitShow。成员分工和报名状态尚未获得进一步确认。
+队伍：SkyStream
+成员：Leah、FruitShow
