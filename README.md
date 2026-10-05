@@ -25,7 +25,7 @@ curl -s http://127.0.0.1:8141/quit
 
 依赖：OctoSense 源码提交 `127ae4bd5a5476f0b813179868e61f80748a044e`；App Hub `0d5b47a2ae9eb98020feca26b7c895a3cf797dc1`。精确本机运行制品校验见交付说明。
 
-公开仓库：https://github.com/shaokaiyuan0513-dotcom/TrendyHear。标签 v0.3.0 固定本次提交。
+公开仓库：[TrendyHear](https://github.com/shaokaiyuan0513-dotcom/TrendyHear)。标签 v0.3.0 固定本次提交。
 
 ## 演示和证据
 
