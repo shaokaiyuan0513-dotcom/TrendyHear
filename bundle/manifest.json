@@ -1,0 +1,19 @@
+{
+  "capabilities": [
+    "storage",
+    "net",
+    "model"
+  ],
+  "id": "news.tingjian-native",
+  "integrity": {
+    "bundle_blake3": "f34099e7307cc0e35f4d125249bd2293caede661085dcbc57fdfd48f207957b5"
+  },
+  "name": "听见 · 新闻简报",
+  "network": {
+    "hosts": [
+      "www.chinanews.com.cn"
+    ]
+  },
+  "schema": 1,
+  "version": "0.3.0"
+}
