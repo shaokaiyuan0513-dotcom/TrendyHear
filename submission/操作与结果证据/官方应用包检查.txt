@@ -1,3 +1,2 @@
-news.tingjian-native 0.3.0 — PASSED
-  [warning] publisher-signature: unsigned: accountability rests on the hub alone
-  grants: capabilities {"model", "net", "storage"}, hosts {"www.chinanews.com.cn"}, storage 16777216 bytes, agent none
+skystream.trendyhear 0.4.3 — PASSED
+  grants: capabilities {"glance", "model", "net", "octos.session.history", "octos.session.open", "octos.turn.start", "storage"}, hosts {"www.chinanews.com.cn", "www.ifanr.com", "www.ithome.com", "www.solidot.org"}, storage 16777216 bytes, agent read-only

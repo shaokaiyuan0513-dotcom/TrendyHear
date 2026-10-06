@@ -1,19 +1,54 @@
 {
+  "agent": {
+    "instructions": "AGENT.md",
+    "max_iterations": null,
+    "model": {
+      "local_only": false,
+      "needs": [
+        "tool_calling"
+      ],
+      "tier": "standard"
+    },
+    "profile": "read-only",
+    "token_budget": null,
+    "tools": [
+      "ask_user_question"
+    ]
+  },
   "capabilities": [
     "storage",
     "net",
-    "model"
+    "model",
+    "glance",
+    "octos.session.open",
+    "octos.session.history",
+    "octos.turn.start"
   ],
-  "id": "news.tingjian-native",
-  "integrity": {
-    "bundle_blake3": "f34099e7307cc0e35f4d125249bd2293caede661085dcbc57fdfd48f207957b5"
+  "compute": {
+    "instruction_budget": null,
+    "memory_bytes": null
   },
-  "name": "听见 · 新闻简报",
+  "id": "skystream.trendyhear",
+  "integrity": {
+    "bundle_blake3": "a2c3d669fe9795aa90710495a1c384d6046b1c3fd5632fe229da820ed5cf097d",
+    "signature": {
+      "key_id": "skystream",
+      "value": "56181f560488736ada94cc4e2e667f2dffd786d466f23e4bbaa72433d38aaa0974ae87d93ebb6a773beccd423f90b2ecbded7663e05e000288f1124ba318800f"
+    }
+  },
+  "name": "TrendyHear",
   "network": {
     "hosts": [
-      "www.chinanews.com.cn"
+      "www.chinanews.com.cn",
+      "www.ithome.com",
+      "www.ifanr.com",
+      "www.solidot.org"
     ]
   },
   "schema": 1,
-  "version": "0.3.0"
+  "storage": {
+    "agent_workspace": "account",
+    "max_bytes": null
+  },
+  "version": "0.4.3"
 }
