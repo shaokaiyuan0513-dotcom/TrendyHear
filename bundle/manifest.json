@@ -21,7 +21,6 @@
     "model",
     "glance",
     "octos.session.open",
-    "octos.session.history",
     "octos.turn.start"
   ],
   "compute": {
@@ -30,10 +29,10 @@
   },
   "id": "skystream.trendyhear",
   "integrity": {
-    "bundle_blake3": "a2c3d669fe9795aa90710495a1c384d6046b1c3fd5632fe229da820ed5cf097d",
+    "bundle_blake3": "b23e25ca3ae48e9d57ad376528faa90d13a34818658dedf01714fe10c753ebe4",
     "signature": {
       "key_id": "skystream",
-      "value": "56181f560488736ada94cc4e2e667f2dffd786d466f23e4bbaa72433d38aaa0974ae87d93ebb6a773beccd423f90b2ecbded7663e05e000288f1124ba318800f"
+      "value": "5957fde444b8a4c2e896afbe82fb0f1d05ddbe2901bd66afaedd3f163c31892e980ccb0fe3c2a5799bdd6579f2cffd57a03c6d18c28d8685ad0710e0fbe77a0f"
     }
   },
   "name": "TrendyHear",
@@ -50,5 +49,5 @@
     "agent_workspace": "account",
     "max_bytes": null
   },
-  "version": "0.4.3"
+  "version": "0.4.4"
 }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "subtitle": "关注所爱，读懂今日。",
-  "description": "在 Ask TrendyHear 描述阅读兴趣，听见顾问逐项澄清后展示确认卡片。确认后保存偏好并立即精选八条新闻，先展示新闻，再自动填入今日简报。支持主题优先级、临时查询、减少此类推荐和原文链接。相关报道不足时如实展示已有内容；定时及稍后提醒需保持应用打开。",
+  "description": "点击听见顾问，用自然语言描述阅读兴趣。专属 Agent 逐项澄清并复述理解，确认后由应用展示偏好卡片；再次确认才保存偏好并立即精选八条新闻。新闻先展示，今日简报随后自动填入。支持主题优先级、单次查询、暂停恢复、减少此类推荐和原文链接。",
   "category": "news",
   "keywords": [
     "新闻",
@@ -23,7 +23,7 @@
     "support": "https://github.com/shaokaiyuan0513-dotcom/TrendyHear/issues",
     "privacy_policy_url": "https://github.com/shaokaiyuan0513-dotcom/TrendyHear/blob/main/PRIVACY.md"
   },
-  "release_notes": "0.4.3：偏好设置改为三步卡片——点「听见顾问」后依次推送「兴趣主题（最多三个，按优先级排序）」「阅读目的」「推送时间」三张卡片，依次选择后自动保存并立即精选新闻；界面文案与底栏版本号更新。补充科技与设计来源；先展示新闻列表，再自动生成顶部简报；支持手动重新生成、动态加载提示。",
+  "release_notes": "0.4.4：听见顾问升级为混合式 Agent 工作流。应用启动专属 Agent，Agent 用 ask_user_question 渐进收集并复述偏好；用户在 Agent 对话中确认后，应用再发布 AppCard。只有点击卡片确认，偏好才会保存并立即抓取新闻。保留快速设置作为模型不可用时的备用入口。",
   "age_rating": "all",
   "license": "Apache-2.0"
 }
